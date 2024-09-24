@@ -1,55 +1,87 @@
 *{
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
+  
 }
 
 
 body {
-    background-color: #E7783E;
-    font-size: 28px;
-  }
+  background-color: #E7783E;
 
+}
+.h{
+  background-image: url('/images/Header-Pattern@2x.png');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 200%;
+  height: 160px;
+}
+.header{
+  display:inline-flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.header p{
+  font-size:10px ;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+.header img{
+  max-width: 100px ;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 50px;
+  position: sticky;
+  top: 0;
+
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  padding: 0;
+  /* overflow: hidden; */
+  background-color: #DF5E32;
+  position: sticky;
+  top: 1px;
+  border-radius: 5px;
+  float: right;
+  margin-right:10px ;
+  border-style: solid;
+  border-width: 1px;
   
+}
+
+.navbar div {
+  float: left;
   
-  .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #DF5E32;
-    position: sticky;
-    top: 1px;
-    border-radius: 5px;
-  }
+}
+ 
+.navbar .nav-right {
+  float: right;
   
-  .navbar div {
-    float: left;
-    
-  }
-   
-  .navbar .nav-right {
-    float: right;
-    
-  }
-  
-  
-  .navbar div a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    font-weight: bold;
-   
-  }
-  
-  .navbar div a:hover:not(.active) {
-    background-color: #D84325;
-    border-radius: 5px;
-  }
-  
-  .active {
-    background-color: #D3321D;
-    border-radius: 5px;
-  }
+}
+
+
+.navbar div a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+ 
+}
+
+.navbar div a:hover:not(.active) {
+  background-color: #D84325;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #D3321D;
+  border-radius: 5px;
+}
